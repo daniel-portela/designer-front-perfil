@@ -9,7 +9,7 @@
 }
 
 img {
-    width: 100%;
+    width: 80%;
     display: flex;
 }
 
@@ -66,7 +66,7 @@ nav {
 
 .btn {
     padding: 1rem 2rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #fff;
     background-color: #1d4ed8;
     border-radius: 5px;
@@ -86,7 +86,7 @@ nav {
 
 .blur {
     position: absolute;
-    box-shadow: 0 0 1000px 50px #1d4ed8;
+    box-shadow: 0 0 1000px 50px #0044ff;
     z-index: -100;
 }
 
