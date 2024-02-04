@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     outline: none;
@@ -17,7 +17,7 @@ a {
     text-decoration: none;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background-color: #110d36;
 }
@@ -323,14 +323,14 @@ footer .column h4 {
     font-weight: 500;
 }
 
-footer .column > a {
+footer .column>a {
     display: block;
     color: #ccc;
     margin-bottom: 1rem;
     transition: all 0.3s ease;
 }
 
-footer .column > a:hover {
+footer .column>a:hover {
     color: #1d4ed8;
 }
 
@@ -344,40 +344,45 @@ footer .column > a:hover {
 }
 
 @media (width < 900px) {
-    .nav-links{
+    .nav-links {
         display: none;
     }
-    header{
+
+    header {
         grid-template-columns: repeat(1, 1fr);
     }
-    header .image{
+
+    header .image {
         grid-area: 1/1/2/2;
     }
-    .features{
+
+    .features {
         grid-template-columns: repeat(2, 1fr);
     }
-    .pricing{
+
+    .pricing {
         grid-template-columns: repeat(2, 1fr);
     }
-    footer{
+
+    footer {
         grid-template-columns: 1fr 200px;
     }
 }
 
 @media (width < 600px) {
-    header .image::before{
+    header .image::before {
         display: none;
     }
 
-    .features{
+    .features {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .pricing{
+    .pricing {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    footer{
+    footer {
         grid-template-columns: 1fr 150px;
     }
 }
